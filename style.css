@@ -1,0 +1,295 @@
+
+/*
+Design by 100 Web Hosting
+http://www.100webhosting.com
+Released for free under a Creative Commons Attribution 3.0 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #800000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #787878;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #1b1b1b;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 2.0em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #da0c24;
+}
+
+a:hover {
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	margin: 0;
+	padding: 15px 0px 0px 60px;
+	color: #FFFFFF;
+	width: 350px;
+	
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	padding-left: 25px;
+	letter-spacing: -1px;
+	font-size: 3.6em;
+}
+
+#logo p {
+	float: left;
+	margin: 0;
+	padding: 5px 0 0 25px;
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+} 
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+/* Menu 
+
+#menu {
+	width: 1000px;
+	height: 58px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(images/top.jpg) no-repeat left top;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 48px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	height: 32px;
+	margin-right: 1px;
+	padding: 26px 15px 0px 15px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: url(images/menu-hover.jpg) repeat-x left top;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	text-decoration: none;
+}
+*/
+/* Page */
+
+#page {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(images/page.jpg) repeat-y left top;
+}
+
+#page-bgbtm {
+	margin: 0px;
+	padding: 30px;
+	background: url(images/bottom.jpg) no-repeat left bottom;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 600px;
+	padding: 0px 20px;
+}
+
+.post {
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #ececec;
+}
+
+.post .title {
+	height: 32px;
+	letter-spacing: -.5px;
+	color: #810027;
+	border-bottom: 6px solid #ffd4d4;
+}
+
+.post .title a {
+	color: #810027;
+	border: none;
+}
+
+.post .title a:hover {
+	color: #d60444;
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 20px 0px 0px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 270px;
+	padding: 10px 0px 0px 0px;
+	color: #f8ef9f;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 15px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	line-height: 35px;
+	border-bottom: 1px dotted #5a0711;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar li li a {
+	padding: 0px 0px 0px 15px;
+	background: url(images/icon.jpg) no-repeat left 5px;
+}
+
+#sidebar h2 {
+	height: 28px;
+	padding: 12px 0 0 15px;
+	letter-spacing: -.5px;
+	color: #ae0c0c;
+	background: #fff0aa;
+}
+
+#sidebar p {
+	margin: 1px 0px 16px 0px;
+	padding: 10px 20px 20px 14px;
+	text-align: justify;
+	background: #4a0303;
+}
+
+#sidebar a {
+	border: none;
+	color: #ffdbdf;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* Footer */
+
+#footer-wrapper {
+	width: 100%;
+	background: #231202;
+}
+
+#footer {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 40px;
+	line-height: normal;
+	font-size: 12px;
+	text-align: center;
+	color: #c73d3d;
+}
+
+#footer a {
+	color: #f05353;
+	text-decoration: underline;
+}

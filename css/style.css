@@ -1,0 +1,65 @@
+.clearfix{
+clear:both;
+}
+.imageWrapper{
+height: 100px;
+width: 150px;
+position: relative;
+overflow:hidden;
+}
+.imageText{
+font-variant: small-caps;
+font-size: 1em;
+}
+.image{
+height: 100px;
+width: 150px;
+border: 2px solid #000;
+}
+.imageText{
+height: 100px;
+width: 150px;
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+opacity:0;
+visibility:hidden;
+background: rgba(0,0,0,0.5);
+margin-top: 1px;
+color:#fff;
+padding:23%;
+}
+.imageWrapper:hover .imageText{
+visibility:visible;
+opacity:1;
+}
+#head{
+height: 140px;
+width: 90%;
+}
+#page{
+width: 80%;
+padding-left:10%;
+padding-bottom: 90px;
+}
+#footer{
+background:#0e0e0e;
+color:#fff;
+height:25px;
+padding: 20px;
+position:fixed;
+z-index:100;
+bottom:0;
+width:100%;
+}
+.ui-dialog-titlebar {
+  background-color: red;
+  background-image: none;
+  color: #000;
+}
+table{
+font-family: Baskerville Old Face;
+font-variant: small-caps;
+}
